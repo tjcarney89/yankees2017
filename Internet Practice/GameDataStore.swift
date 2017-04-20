@@ -21,8 +21,8 @@ class GameDataStore{
     var sepGames = [Game]()
     var octGames = [Game]()
     
+    //Gets all games in schedule
     func getYankeesGames(completion: @escaping () -> Void) {
-        print("GETTING CALLED")
         let urlString = "https://api.seatgeek.com/2/events?client_id=NzAyNDgwM3wxNDg5MDY3NjgyLjYy&performers.slug=new-york-yankees&datetime_utc.gte=2017-04-01&per_page=162"
         if let url = URL(string: urlString) {
             let session = URLSession.shared
@@ -37,7 +37,7 @@ class GameDataStore{
                             guard let title = event["title"] as? String else {continue}
                             var newOpponent: String = ""
                             
-                            
+                            //Convert Date/Time
                             var convertedDate: String = ""
                             var convertedTime: String = ""
                             
@@ -65,9 +65,6 @@ class GameDataStore{
                                 convertedTime = newTimeFormatter.string(from: time)
                             }
                             
-                            
-                            
-                            
                             guard let performers = event["performers"] as? [[String:Any]] else {continue}
                             for performer in performers {
                                 guard let opponent = performer["name"] as? String else {continue}
@@ -79,7 +76,6 @@ class GameDataStore{
                             guard let venues = event["venue"] as? [String:Any] else {continue}
                             guard let location = venues["name"] as? String else {continue}
                             let game = Game(title: title, opponent: newOpponent, date: convertedDate, time: convertedTime, location: location, buyTickets: buyTickets)
-                            print(game)
                             if game.date.contains("Apr") {
                                 self.aprGames.append(game)
                             } else if game.date.contains("May") {

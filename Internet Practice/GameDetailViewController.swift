@@ -44,6 +44,8 @@ class GameDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Set team logos
+    
     func teamToLogo(team: String) -> UIImage {
         var image = UIImage(named: "Yankees")
         switch team {
@@ -135,19 +137,11 @@ class GameDetailViewController: UIViewController {
         return image!
     }
     
+    //Link to SeatGeak to buy tickets
+    
     @IBAction func buyTickets(_ sender: Any) {
         UIApplication.shared.openURL(URL(string: url)!)
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
