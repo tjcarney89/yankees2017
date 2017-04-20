@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F03A11521E71A0F100038E03"
-               BuildableName = "Internet Practice.app"
-               BlueprintName = "Internet Practice"
-               ReferencedContainer = "container:Internet Practice.xcodeproj">
+               BuildableName = "Yankees Schedule 2017.app"
+               BlueprintName = "Yankees Schedule 2017"
+               ReferencedContainer = "container:Yankees Schedule 2017.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F03A11521E71A0F100038E03"
-            BuildableName = "Internet Practice.app"
-            BlueprintName = "Internet Practice"
-            ReferencedContainer = "container:Internet Practice.xcodeproj">
+            BuildableName = "Yankees Schedule 2017.app"
+            BlueprintName = "Yankees Schedule 2017"
+            ReferencedContainer = "container:Yankees Schedule 2017.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F03A11521E71A0F100038E03"
-            BuildableName = "Internet Practice.app"
-            BlueprintName = "Internet Practice"
-            ReferencedContainer = "container:Internet Practice.xcodeproj">
+            BuildableName = "Yankees Schedule 2017.app"
+            BlueprintName = "Yankees Schedule 2017"
+            ReferencedContainer = "container:Yankees Schedule 2017.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F03A11521E71A0F100038E03"
-            BuildableName = "Internet Practice.app"
-            BlueprintName = "Internet Practice"
-            ReferencedContainer = "container:Internet Practice.xcodeproj">
+            BuildableName = "Yankees Schedule 2017.app"
+            BlueprintName = "Yankees Schedule 2017"
+            ReferencedContainer = "container:Yankees Schedule 2017.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,16 +12,26 @@
 		F03A115C1E71A0F200038E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A115A1E71A0F200038E03 /* Main.storyboard */; };
 		F03A115E1E71A0F200038E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03A115D1E71A0F200038E03 /* Assets.xcassets */; };
 		F03A11611E71A0F200038E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03A115F1E71A0F200038E03 /* LaunchScreen.storyboard */; };
+		F03A116B1E71A7C500038E03 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A116A1E71A7C500038E03 /* Game.swift */; };
+		F046482E1E71E3360013A530 /* GameDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F046482D1E71E3360013A530 /* GameDataStore.swift */; };
+		F04648301E71EA680013A530 /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F046482F1E71EA680013A530 /* GamesTableViewController.swift */; };
+		F04648321E71EEE30013A530 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04648311E71EEE30013A530 /* GameTableViewCell.swift */; };
+		F04648361E71F6310013A530 /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04648351E71F6310013A530 /* GameDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F03A11531E71A0F100038E03 /* Internet Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03A11531E71A0F100038E03 /* Yankees Schedule 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yankees Schedule 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03A11561E71A0F200038E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03A11581E71A0F200038E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F03A115B1E71A0F200038E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F03A115D1E71A0F200038E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03A11601E71A0F200038E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03A11621E71A0F200038E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03A116A1E71A7C500038E03 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F046482D1E71E3360013A530 /* GameDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDataStore.swift; sourceTree = "<group>"; };
+		F046482F1E71EA680013A530 /* GamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
+		F04648311E71EEE30013A530 /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		F04648351E71F6310013A530 /* GameDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +48,7 @@
 		F03A114A1E71A0F100038E03 = {
 			isa = PBXGroup;
 			children = (
-				F03A11551E71A0F100038E03 /* Internet Practice */,
+				F03A11551E71A0F100038E03 /* Yankees Schedule 2017 */,
 				F03A11541E71A0F100038E03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +56,36 @@
 		F03A11541E71A0F100038E03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F03A11531E71A0F100038E03 /* Internet Practice.app */,
+				F03A11531E71A0F100038E03 /* Yankees Schedule 2017.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F03A11551E71A0F100038E03 /* Internet Practice */ = {
+		F03A11551E71A0F100038E03 /* Yankees Schedule 2017 */ = {
 			isa = PBXGroup;
 			children = (
 				F03A11561E71A0F200038E03 /* AppDelegate.swift */,
 				F03A11581E71A0F200038E03 /* ViewController.swift */,
+				F046482F1E71EA680013A530 /* GamesTableViewController.swift */,
+				F04648351E71F6310013A530 /* GameDetailViewController.swift */,
+				F04648311E71EEE30013A530 /* GameTableViewCell.swift */,
+				F03A116A1E71A7C500038E03 /* Game.swift */,
+				F046482D1E71E3360013A530 /* GameDataStore.swift */,
 				F03A115A1E71A0F200038E03 /* Main.storyboard */,
 				F03A115D1E71A0F200038E03 /* Assets.xcassets */,
 				F03A115F1E71A0F200038E03 /* LaunchScreen.storyboard */,
 				F03A11621E71A0F200038E03 /* Info.plist */,
 			);
+			name = "Yankees Schedule 2017";
 			path = "Internet Practice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F03A11521E71A0F100038E03 /* Internet Practice */ = {
+		F03A11521E71A0F100038E03 /* Yankees Schedule 2017 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F03A11651E71A0F200038E03 /* Build configuration list for PBXNativeTarget "Internet Practice" */;
+			buildConfigurationList = F03A11651E71A0F200038E03 /* Build configuration list for PBXNativeTarget "Yankees Schedule 2017" */;
 			buildPhases = (
 				F03A114F1E71A0F100038E03 /* Sources */,
 				F03A11501E71A0F100038E03 /* Frameworks */,
@@ -79,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "Internet Practice";
+			name = "Yankees Schedule 2017";
 			productName = "Internet Practice";
-			productReference = F03A11531E71A0F100038E03 /* Internet Practice.app */;
+			productReference = F03A11531E71A0F100038E03 /* Yankees Schedule 2017.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F03A114E1E71A0F100038E03 /* Build configuration list for PBXProject "Internet Practice" */;
+			buildConfigurationList = F03A114E1E71A0F100038E03 /* Build configuration list for PBXProject "Yankees Schedule 2017" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F03A11521E71A0F100038E03 /* Internet Practice */,
+				F03A11521E71A0F100038E03 /* Yankees Schedule 2017 */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04648321E71EEE30013A530 /* GameTableViewCell.swift in Sources */,
 				F03A11591E71A0F200038E03 /* ViewController.swift in Sources */,
+				F04648301E71EA680013A530 /* GamesTableViewController.swift in Sources */,
 				F03A11571E71A0F200038E03 /* AppDelegate.swift in Sources */,
+				F04648361E71F6310013A530 /* GameDetailViewController.swift in Sources */,
+				F03A116B1E71A7C500038E03 /* Game.swift in Sources */,
+				F046482E1E71E3360013A530 /* GameDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Internet Practice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TJ.Internet-Practice";
@@ -272,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Internet Practice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TJ.Internet-Practice";
@@ -283,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F03A114E1E71A0F100038E03 /* Build configuration list for PBXProject "Internet Practice" */ = {
+		F03A114E1E71A0F100038E03 /* Build configuration list for PBXProject "Yankees Schedule 2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F03A11631E71A0F200038E03 /* Debug */,
@@ -292,13 +315,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F03A11651E71A0F200038E03 /* Build configuration list for PBXNativeTarget "Internet Practice" */ = {
+		F03A11651E71A0F200038E03 /* Build configuration list for PBXNativeTarget "Yankees Schedule 2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F03A11661E71A0F200038E03 /* Debug */,
 				F03A11671E71A0F200038E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
